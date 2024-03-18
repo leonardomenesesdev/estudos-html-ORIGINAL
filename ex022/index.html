@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+    
+        }
+        a{
+            color:chartreuse;
+            text-decoration: none;
+            font-weight: bold
+        
+        }
+        a:visited{
+            color: red;
+        }
+        a :hover{
+            color: black;
+            text-decoration: underline ;
+        }
+        .especial{
+            background-color: bisque;
+        }
+        .especial::before{
+            content: '←' ;
+        }
+        .especial::after{
+            content: '→	;';
+         
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.twitch.tv/gaules" class="especial">Gaules</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po">Guanabara</a></li>
+        <li><a href="https://www.hltv.org/"> HLTV</a></li>
+    </ul>
+</body>
+</html>
