@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Imagem de Fundo</title>
     <style>
-        main{
-            text-align: left;
-            margin-top: auto;
+        
+        #container{
+            background-image: url('imagens/fortaleza.jpg');
+
+            background-size:100% 100%;
+            height: 500px;
+            padding: 10px;
+            position: relative;
+            height: 95vh;
+            
+
+        }
+        #conteudo{
+            background-size: 100% 100%;
+            position: absolute;
+            height: 250px;
+            width: 400px;
+            left: 0%;
+            top: 0%;
+            transform: translate(-0%, -0%);
+           
         }
         body{
             background-image: url('imagens/fortaleza.jpg');
@@ -37,14 +55,16 @@
     </style>
 </head>
 <body>
-    <main>
-        <div class = "quadrado" id="q1">
-        </div>
-        <div class="quadrado" id="q2">
-        </div>
-        <div class="quadrado" id="q3">
-        </div>
+    <section id="conteudo">
+        <article id="conteudo">
+            <div class = "quadrado" id="q1">
+            </div>
+            <div class="quadrado" id="q2">
+            </div>
+            <div class="quadrado" id="q3">
+            </div>
+        </article>
         
-    </main>
+    </section>
 </body>
 </html>
